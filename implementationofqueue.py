@@ -9,7 +9,7 @@ class Queue:
         return self.items.pop()
     
     def is_empty(self):
-        if self.items is None:
+        if self.items == []:
             return True
         return False
     
